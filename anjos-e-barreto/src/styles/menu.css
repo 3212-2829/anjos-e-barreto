@@ -1,0 +1,163 @@
+.Top_Int_Men {
+    display: flex;
+    gap: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+    .Top_Int_Men {
+        display: none;
+    }
+}
+
+.Top_Int_Men_Con {
+    margin-bottom: 30px;
+}
+
+.Top_Int_Men_Con a {
+    background-color: red;
+    padding: 20px 60px 20px 20px;
+    color: white;
+    text-transform: uppercase;
+    height: fit-content;
+    display: block;
+}
+
+nav {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 40px;
+}
+
+nav ul li {
+    list-style: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.Top_Int_Men_Mob {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .Top_Int_Men_Mob {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+.Top_Int_Men_Mob button {
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    color: #01aef2;
+    cursor: pointer;
+}
+
+.Top_Int_Men_Mob_Int {
+    transform: rotateY(90deg);
+    transition: all linear 0.4s;
+    transform-origin: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+}
+
+.Top_Int_Men_Mob_Int.active {
+    transform: rotateY(0deg);
+    transition: all linear 0.4s;
+}
+
+.Top_Int_Men_Mob_Int .close {
+    width: 100%;
+    height: 100%;
+    background-color: #0000005e;
+    position: absolute;
+}
+
+.Top_Int_Men_Mob_Int nav {
+    width: 60%;
+    height: calc(100% - 0px);
+    margin: 0 0 0 auto;
+    position: relative;
+    /* top: -16px; */
+    background: #eb268f;
+    z-index: 2;
+    align-items: start;
+    min-width: 300px;
+}
+
+.Top_Int_Men_Mob_Int nav ul {
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.Top_Int_Men_Mob_Int nav ul li {
+    color: white;
+    border: 1px solid transparent;
+    border-bottom: 1px solid white;
+}
+
+.Top_Int_Men_Mob_Int nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px 40px;
+}
+
+.Top_Int_Men_Mob_Int nav ul li:hover {
+    background: #f17ea1;
+    border: 1px solid white;
+    /* transform: translateX(10px); */
+    cursor: pointer;
+}
+
+.Top_Int_Men_Mob_002 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.Top_Int_Men_Mob_002 a {
+    background-color: red;
+    padding: 20px 60px 20px 20px;
+    color: white;
+    text-transform: uppercase;
+    height: fit-content;
+    display: block;
+}
+
+@media screen and (max-width: 767.98px) {
+    .Top_Int_Men_Mob_002 a {
+        padding: 8px 6px;
+    }
+}
+
+.Top_Int_Men_Mob_002 .Top_Int_Men_Mob_002_Idi {
+    display: flex;
+    gap: 12px;
+}
+
+@media screen and (max-width: 767.98px) {
+    .Top_Int_Men_Mob_002 .Top_Int_Men_Mob_002_Idi {
+        display: none;
+    }
+}
+
+.Top_Int_Men_Mob_002 .Top_Int_Men_Mob_002_Idi a {
+    background-color: transparent;
+    padding: 0;
+}
